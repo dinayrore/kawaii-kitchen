@@ -1,0 +1,21 @@
+[{
+  "id": "1",
+  "name": "Apples",
+  "status": true
+}, {
+  "id": "2",
+  "name": "Peanut Butter",
+  "status": true
+}, {
+  "id": "3",
+  "name": "Eggs",
+  "status": false
+}, {
+  "id": "4",
+  "name": "Bagels",
+  "status": true
+}, {
+  "id": "5",
+  "name": "Bacon",
+  "status": false
+}]
