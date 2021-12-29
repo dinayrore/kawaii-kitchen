@@ -1,7 +1,8 @@
 import Image from "next/image";
-import styles from "../../styles/Home.module.css";
+import styles from "./KitchenCard.module.css";
 
 interface KitchenCardProps {
+  label: string;
   path: string;
   img: string;
   altText: string;
@@ -10,6 +11,7 @@ interface KitchenCardProps {
 }
 
 const KitchenCard: React.FC<KitchenCardProps> = ({
+  label,
   path,
   img,
   altText,
@@ -17,9 +19,12 @@ const KitchenCard: React.FC<KitchenCardProps> = ({
   width,
 }) => {
   return (
-    <a href={path} className={styles.card}>
-      <Image src={img} alt={altText} height={height} width={width} />
-    </a>
+    <fieldset className={styles.card}>
+      <legend>{label}</legend>
+      <a href={path}>
+        <Image src={img} alt={altText} height={height} width={width} />
+      </a>
+    </fieldset>
   );
 };
 

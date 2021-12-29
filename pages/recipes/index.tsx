@@ -1,9 +1,12 @@
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/Kitchen.module.css";
+import RecipeCard from "../../components/RecipeCard/RecipeCard";
 
 const Recipes = () => {
   return (
     <div className={styles.container}>
-      <h2>Recipes</h2>
+      <main className={styles.main}>
+        <div className={styles.grid}>{/* <RecipeCard></RecipeCard> */}</div>
+      </main>
     </div>
   );
 };
