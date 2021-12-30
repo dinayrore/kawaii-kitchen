@@ -1,0 +1,42 @@
+[{
+    "id": "1",
+    "img": "/apple-pie.jpeg",
+    "title": "Apple Pie",
+    "tags": ["delicious", "easy", "few ingredients"],
+    "time": 30,
+    "rating": 5,
+    "description": "A steaming delicious apple pie.",
+    "ingredients": ["3 Flour", "2 Sugar", "2 Apple"],
+    "instructions": ["go to kitchenette", "click cook something", "smash button to cook fast", "show off work"]
+ 
+  }, {
+    "id": "2",
+    "img": "/fruit-pizza.jpeg",
+    "title": "Fruit Pizza",
+    "tags": ["delicious", "many ingredients"],
+    "time": 15,
+    "rating": 5,
+    "description": "A chill fruit pizza.",
+    "ingredients": ["3 Flour", "1 Apple", "1 Orange", "1 Pear", "1 Peach", "1 Cherry"],
+    "instructions": ["go to kitchenette", "click cook something", "smash button to cook fast", "show off work"]
+  }, {
+    "id": "3",
+    "img": "/poke.jpeg",
+    "title": "Poke",
+    "tags": ["delicious", "2 ingredients"],
+    "time": 10,
+    "rating": 5,
+    "description": "A simple pokebowl.",
+    "ingredients": ["1 Salmon", "1 Tomato"],
+    "instructions": ["go to kitchenette", "click cook something", "smash button to cook fast", "show off work"]
+  }, {
+    "id": "4",
+    "img": "/pretzels.png",
+    "title": "Pretzels",
+    "tags": ["delicious", "2 ingredients"],
+    "time": 60,
+    "rating": 5,
+    "description": "PRETZELS!",
+    "ingredients": ["1 Flour", "1 Sugar"],
+    "instructions": ["go to kitchenette", "click cook something", "smash button to cook fast", "show off work"]
+  }]

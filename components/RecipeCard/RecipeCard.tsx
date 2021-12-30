@@ -1,41 +1,34 @@
 import Image from "next/image";
-import styles from "../../styles/Kitchen.module.css";
+import styles from "../KitchenCard/KitchenCard.module.css";
 
 interface RecipeCardProps {
   img: string;
-  altText: string;
   height: number;
   width: number;
   title: string;
-  tags: string;
+  tags: string[];
   time: number;
   rating: number;
+  description: string;
 }
 
 const RecipeCard: React.FC<RecipeCardProps> = ({
   img,
-  altText,
   height,
   width,
+  title,
+  tags,
+  time,
+  rating,
+  description,
 }) => {
   return (
-    <div className={styles.grid}>
-      <Image src={img} alt={altText} height={height} width={width} />
+    <div className={styles.card}>
+      <Image src={img} alt={title} height={height} width={width} />
+      <h2 className={styles.title}>{title}</h2>
+      <p className={styles.description}>{description}</p>
     </div>
   );
 };
 
 export default RecipeCard;
-
-// function Card(props) {
-//   return (
-//     <div className="card">
-//       <div className="card__body">
-//         <img src={props.img} class="card__image" />
-//         <h2 className="card__title">{props.title}</h2>
-//         <p className="card__description">{props.description}</p>
-//       </div>
-//       <button className="card__btn">View Recipe</button>
-//     </div>
-//   );
-// }

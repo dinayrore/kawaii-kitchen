@@ -1,0 +1,19 @@
+.card {
+    margin: 1rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    max-width: 300px;
+  }
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+    color: #37b873;
+    border-color: #37b873;
+  }
+  
+  .card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
